@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+header{
+    display: flex;
+    background-color: #1a638d;
+    padding: 40px 100px 150px 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#userall{
+    display: flex;
+}
+
+
+#bemvindo{
+    color: #f2f2f2;
+    margin: 0;
+    padding-left: 15px;
+}
+
+#transacao{
+    padding: 12px 20px;
+    background-color:#165072;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-right: 189px;
+}
+
+#user{
+    width: 80px;
+    border-radius: 4px;
+}
+
+main{
+    margin: 0;
+    margin-top: -100px;
+}
+
+#transla{
+    display: flex;
+    gap: 50px;
+    justify-content: center; 
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card, .card_f{
+    background-color: #ffffff;
+    border-radius: 4px;
+    justify-content: space-between;
+    width: 30%;
+    padding: 15px 30px;
+}
+
+.card_f{
+    background-color: #df5d29;
+}
+
+body{
+    background-color: #c9c9c9;
+}
+
+
+#body{
+    padding: 80px;
+}
+
+.sup_p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.icon_up, .icon_down, .icon{
+    font-size: 30px;
+}
+
+.icon_down{
+    color: rgb(194, 58, 58);
+}
+
+.icon_up{
+    color: rgb(101, 190, 101);
+}
+
+.inf_p{
+    margin-top: 70px;
+    justify-content: end;
+}
