@@ -1,0 +1,20 @@
+{
+  "name": "financesweb-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrielporfiri0/FinancesWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabrielporfiri0/FinancesWeb/issues"
+  },
+  "homepage": "https://github.com/Gabrielporfiri0/FinancesWeb#readme",
+  "description": ""
+}

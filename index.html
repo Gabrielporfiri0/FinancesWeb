@@ -20,39 +20,60 @@
             <a id="transacao" href="#">Nova Transação</a>
         </div>
     </header>
+        <div id="modal" class="modal hidden">
+    <div class="modal-content">
+        <h2>Nova Transação</h2>
+        <form id="form-transacao">
+        <input type="text" id="titulo" placeholder="Nome da transação" required />
+        <input type="number" id="valor" placeholder="Valor" required />
+        
+        <div class="tipo-btns">
+            <button type="button" id="btn-entrada">Entrada</button>
+            <button type="button" id="btn-saida">Saída</button>
+        </div>
+
+        <input type="text" id="categoria" placeholder="Categoria" required />
+        
+        <button type="submit" id="salvar">Salvar</button>
+        </form>
+    </div>
+    </div>
     <main>
-        <div id="transla">
+                <div id="transla">
             <div class="card">
                 <div class="sup_p">
                 <h2>Entradas</h2>
                 <i class="fa-solid fa-circle-up icon_up"></i>
-            </div>
+                </div>
                 <div class="inf_p">
-                    <h1>R$10.300,00</h1>
-                    <p>Ultima entrada dia 13 de abril</p>
+                <h1 id="total-entradas">R$0,00</h1>
+                <p>Última entrada</p>
                 </div>
             </div>
+
             <div class="card">
                 <div class="sup_p">
-                <h2>Entradas</h2>
+                <h2>Saídas</h2>
                 <i class="fa-solid fa-circle-down icon_down"></i>
-            </div>
+                </div>
                 <div class="inf_p">
-                    <h1>R$10.300,00</h1>
-                    <p>Ultima entrada dia 13 de abril</p>
+                <h1 id="total-saidas">R$0,00</h1>
+                <p>Última saída</p>
                 </div>
             </div>
+
             <div class="card_f">
                 <div class="sup_p">
-                 <h2>Entradas</h2>
-                 <i class="fa-solid fa-money-check-dollar icon"></i>
+                <h2>Total</h2>
+                <i class="fa-solid fa-money-check-dollar icon"></i>
                 </div>
                 <div class="inf_p">
-                    <h1>R$20.600,00</h1>
-                    <p>Ultima entrada dia 13 de abril</p>
+                <h1 id="total-geral">R$0,00</h1>
+                <p>Saldo atual</p>
                 </div>
             </div>
-        </div>
+            </div>
+
         <table>
             <thead>
             <tr>
@@ -62,33 +83,11 @@
               <th>Data</th>
             </tr>
             </thead>
-            <tbody id="body">
-            <tr>
-             <td>desenvolvimento de Site</td>
-             <td>R$12.000,00</td>       
-             <td>Vendas</td>
-             <td>13/04/2025</td>
-            </tr>
-            <tr>
-              <td>Compras</td>
-              <td>R$1.000,00</td>       
-              <td>Compras</td>
-              <td>13/04/2025</td>
-              </tr>
-            <tr>
-             <td>desenvolvimento de Site</td>
-             <td>R$12.000,00</td>       
-             <td>Vendas</td>
-             <td>13/04/2025</td>
-            </tr>
-            <tr>
-             <td>Compras</td>
-             <td>R$1.000,00</td>       
-             <td>Compras</td>
-             <td>13/04/2025</td>
-            </tr>
-            </tbody>
+          <tbody id="body">
+        </tbody>
           </table>
     </main>
 </body>
 </html>
+<script src="assets/javascript/api.js"></script>
+<script src="assets/javascript/script.js"></script>
